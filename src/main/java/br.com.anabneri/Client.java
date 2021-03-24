@@ -1,4 +1,4 @@
-package anabneri;
+package br.com.anabneri;
 
 /**
  * Hello world!
