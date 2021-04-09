@@ -1,7 +1,8 @@
 package anabneri.singleton.connectionPool.beforeImplementation;
 
-import br.com.cod3r.singleton.connectionPool.before.conn.Connection;
-import br.com.cod3r.singleton.connectionPool.before.conn.ConnectionPool;
+
+import anabneri.singleton.connectionPool.beforeImplementation.conn.Connection;
+import anabneri.singleton.connectionPool.beforeImplementation.conn.ConnectionPool;
 
 public class Client {
 	public static void doQuery1() {
@@ -17,7 +18,7 @@ public class Client {
 		if(conn != null)
 			conn.query("SELECT * FROM A2");
 	}
-	
+
 	public static void doQuery3() {
 		ConnectionPool pool = new ConnectionPool();
 		Connection conn = pool.getConnection();

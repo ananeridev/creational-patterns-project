@@ -2,7 +2,8 @@ package anabneri.singleton.connectionPool.after.conn;
 
 public class Connection {
 private boolean inUse;
-	
+
+// access inside the class
 	public Connection() {
 		inUse = false;
 	}
