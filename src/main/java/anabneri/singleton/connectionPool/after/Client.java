@@ -17,6 +17,9 @@ public class Client {
 		Connection conn = pool.getConnection();
 		if(conn != null)
 			conn.query("SELECT * FROM A2");
+
+		// access conection inside the class
+		pool.leaveConnection(conn);
 	}
 	
 	public static void doQuery3() {

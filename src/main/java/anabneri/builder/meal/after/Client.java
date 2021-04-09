@@ -1,11 +1,8 @@
 package anabneri.builder.meal.after;
 
-import br.com.cod3r.builder.meal.after.builder.FastFoodMealBuilder;
-import br.com.cod3r.builder.meal.after.builder.FatMealBuilder;
-import br.com.cod3r.builder.meal.after.builder.JustFriesBuilder;
-import br.com.cod3r.builder.meal.after.builder.Menu1Builder;
-import br.com.cod3r.builder.meal.after.builder.Menu2Builder;
-import br.com.cod3r.builder.meal.after.director.MealDirector;
+
+import anabneri.builder.meal.after.builder.*;
+import anabneri.builder.meal.after.director.MealDirector;
 
 public class Client {
 	

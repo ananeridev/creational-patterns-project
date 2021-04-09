@@ -1,6 +1,7 @@
 package anabneri.builder.meal.after.builder;
 
-import br.com.cod3r.builder.meal.after.model.FastFoodMeal;
+
+import anabneri.builder.meal.after.model.FastFoodMeal;
 
 public abstract class FastFoodMealBuilder {
 	protected FastFoodMeal meal;
