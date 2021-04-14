@@ -1,6 +1,7 @@
 package anabneri.builder.meal.fluent.model.builder;
 
-import br.com.cod3r.builder.meal.fluent.model.FastFoodMeal;
+
+import anabneri.builder.meal.fluent.model.FastFoodMeal;
 
 public class FastFoodMealBuilder {
 	//Mandatory
@@ -15,6 +16,8 @@ public class FastFoodMealBuilder {
 	public FastFoodMealBuilder(String side) {
 		this.side = side;
 	}
+
+	// adicionar atributos obrigatorios
 
 	public FastFoodMealBuilder forDrink(String drink) {
 		this.drink = drink;

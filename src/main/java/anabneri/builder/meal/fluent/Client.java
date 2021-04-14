@@ -1,7 +1,8 @@
 package anabneri.builder.meal.fluent;
 
-import br.com.cod3r.builder.meal.fluent.model.FastFoodMeal;
-import br.com.cod3r.builder.meal.fluent.model.builder.FastFoodMealBuilder;
+
+import anabneri.builder.meal.fluent.model.FastFoodMeal;
+import anabneri.builder.meal.fluent.model.builder.FastFoodMealBuilder;
 
 public class Client {
 
@@ -14,7 +15,8 @@ public class Client {
 		
 		FastFoodMeal justFries = new FastFoodMealBuilder("Fries").thatsAll();
 		System.out.println(justFries);
-		
+
+		// TODO pq nao tem o .build() no final
 		FastFoodMeal heartAtackCombo = new FastFoodMealBuilder("Large Fries")
 				.andMain("Monster Burguer")
 				.forDrink("Milk Shake")
