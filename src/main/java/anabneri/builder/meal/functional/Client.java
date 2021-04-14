@@ -1,9 +1,11 @@
 package anabneri.builder.meal.functional;
 
-import br.com.cod3r.builder.meal.functional.model.FastFoodMeal;
+
+import anabneri.builder.meal.functional.model.FastFoodMeal;
 
 public class Client {
 
+	// sintaxe sucinta
 	public static void main(String[] args) {
 		FastFoodMeal burguerCombo = new FastFoodMeal.Builder("Fries")
 				.andMain("CheeseBurger")
@@ -13,7 +15,8 @@ public class Client {
 		
 		FastFoodMeal justFries = new FastFoodMeal.Builder("Fries").thatsAll();
 		System.out.println(justFries);
-		
+
+		// thatAll() em projetos reais eh o mais conhecido build()
 		FastFoodMeal heartAtackCombo = new FastFoodMeal.Builder("Large Fries")
 				.andMain("Monster Burguer")
 				.forDrink("Milk Shake")

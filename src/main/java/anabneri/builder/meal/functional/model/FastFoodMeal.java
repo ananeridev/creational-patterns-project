@@ -1,6 +1,5 @@
 package anabneri.builder.meal.functional.model;
 
-import br.com.cod3r.builder.meal.functional.model.FastFoodMeal;
 
 public class FastFoodMeal {
 
@@ -43,7 +42,8 @@ public class FastFoodMeal {
 		return "FastFoodMeal [drink=" + drink + ", main=" + main + ", side=" + side + ", dessert=" + dessert + ", gift="
 				+ gift + "]";
 	}
-	
+
+	// inner class do paradigma funcional
 	public static class Builder {
 		//Mandatory
 		private String side;
