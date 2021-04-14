@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áù®óÿÿÿÿÿ
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+e
+java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(œ…ñý
+n
+java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(×âÌÑøÿÿÿÿ
+n
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Ìãšýøÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(µ‹óõûÿÿÿÿ

@@ -1,6 +1,7 @@
 package anabneri.builder.meal.beforeImplementation;
 
-import br.com.cod3r.builder.meal.before.model.FastFoodMeal;
+
+import anabneri.builder.meal.beforeImplementation.model.FastFoodMeal;
 
 public class Client {
 

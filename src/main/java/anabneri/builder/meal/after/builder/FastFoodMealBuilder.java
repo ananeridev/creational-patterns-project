@@ -13,10 +13,12 @@ public abstract class FastFoodMealBuilder {
 	public FastFoodMeal getMeal() {
 		return meal;
 	}
-	
-	public abstract void buildDrink();
-	public abstract void buildMain();
-	public abstract void buildSide();
-	public abstract void buildDessert();
-	public abstract void buildGift();
+
+	// definindo os metodos pra serem asbtratos por padrao
+	// isso da a possibilidade de obter apenas o builder necessario
+	public void buildDrink() {}
+	public void buildMain() {}
+	public void buildSide() {}
+	public void buildDessert() {}
+	public void buildGift() {}
 }

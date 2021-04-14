@@ -11,18 +11,19 @@ public class JustFriesBuilder extends FastFoodMealBuilder {
 		// no main
 	}
 
+	// simplemeste setta um exemplo
 	@Override
 	public void buildSide() {
 		meal.setSide("Large Fries");
 	}
 
-	@Override
-	public void buildDessert() {
-		// no dessert
-	}
-
-	@Override
-	public void buildGift() {
-		// no gift
-	}
+//	@Override
+//	public void buildDessert() {
+//		// no dessert
+//	}
+//
+//	@Override
+//	public void buildGift() {
+//		// no gift
+//	}
 }
