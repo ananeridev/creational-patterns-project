@@ -46,8 +46,8 @@ public class ClientAnimation {
 	public static void main(String[] args) throws CloneNotSupportedException, InterruptedException {
 		PersonSamples samples = new PersonSamples();
 		
-//		Person person = samples.get("stickMan");
-		Person person = samples.get("fatMan");
+		Person person = samples.get("stickMan");
+//		Person person = samples.get("fatMan");
 		frames.add(person);
 		person = addLeft(person);
 		person = addLeft(person);

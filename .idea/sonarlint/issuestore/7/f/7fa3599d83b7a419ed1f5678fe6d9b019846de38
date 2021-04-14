@@ -1,5 +1,5 @@
 
 _
-java:S2259"DA "NullPointerException" could be thrown; "device" is nullable here.(ÏÙ«øÿÿÿÿ
+java:S2259"DA "NullPointerException" could be thrown; "device" is nullable here.(ÏÙ«øÿÿÿÿ
 O
-java:S1118	":Add a private constructor to hide the implicit public one.(ŞÚÁ	
+java:S1118":Add a private constructor to hide the implicit public one.(ŞÚÁ	
