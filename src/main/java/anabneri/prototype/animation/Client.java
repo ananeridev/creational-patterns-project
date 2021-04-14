@@ -1,7 +1,9 @@
 package anabneri.prototype.animation;
 
-import br.com.cod3r.prototype.animation.model.Person;
-import br.com.cod3r.prototype.animation.model.PersonSamples;
+
+
+import anabneri.prototype.animation.model.Person;
+import anabneri.prototype.animation.model.PersonSamples;
 
 import java.util.ArrayList;
 import java.util.List;

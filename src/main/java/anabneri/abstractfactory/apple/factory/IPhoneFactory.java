@@ -1,7 +1,8 @@
 package anabneri.abstractfactory.apple.factory;
 
-import br.com.cod3r.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
-import br.com.cod3r.abstractfactory.apple.model.iphone.IPhone;
+
+import anabneri.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
+import anabneri.abstractfactory.apple.model.iphone.IPhone;
 
 public abstract class IPhoneFactory {
 	CountryRulesAbstractFactory rules;

@@ -1,10 +1,11 @@
 package anabneri.builder.spolleto.fluent.model.builder;
 
+import anabneri.builder.spolleto.fluent.model.Pasta;
+import anabneri.builder.spolleto.fluent.model.Size;
+
 import java.util.Arrays;
 import java.util.List;
 
-import br.com.cod3r.builder.spolleto.fluent.model.Pasta;
-import br.com.cod3r.builder.spolleto.fluent.model.Size;
 
 public class PastaBuilder {
 	//Mandatory

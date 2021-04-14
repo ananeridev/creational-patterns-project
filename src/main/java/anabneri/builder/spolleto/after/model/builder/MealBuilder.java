@@ -1,8 +1,9 @@
 package anabneri.builder.spolleto.after.model.builder;
 
+import anabneri.builder.spolleto.after.model.Size;
+
 import java.util.List;
 
-import br.com.cod3r.builder.spolleto.after.model.Size;
 
 public interface MealBuilder {
 

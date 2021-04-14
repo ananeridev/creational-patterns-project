@@ -1,9 +1,10 @@
 package anabneri.abstractfactory.apple.factory.abstractFactory;
 
-import br.com.cod3r.abstractfactory.apple.model.certificate.BrazilianCertificate;
-import br.com.cod3r.abstractfactory.apple.model.certificate.Certificate;
-import br.com.cod3r.abstractfactory.apple.model.packing.BrazilianPacking;
-import br.com.cod3r.abstractfactory.apple.model.packing.Packing;
+
+import anabneri.abstractfactory.apple.model.certificate.BrazilianCertificate;
+import anabneri.abstractfactory.apple.model.certificate.Certificate;
+import anabneri.abstractfactory.apple.model.packing.BrazilianPacking;
+import anabneri.abstractfactory.apple.model.packing.Packing;
 
 public class BrazilianRulesAbstractFactory implements CountryRulesAbstractFactory {
 

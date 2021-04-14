@@ -1,7 +1,7 @@
 package anabneri.prototype.functionalCloneBuilder;
 
-import br.com.cod3r.prototype.functionalCloneBuilder.model.Address;
-import br.com.cod3r.prototype.functionalCloneBuilder.model.User;
+
+import anabneri.prototype.deepShallow.model.User;
 
 public class Client {
 

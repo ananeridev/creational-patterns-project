@@ -1,6 +1,6 @@
 package anabneri.abstractfactory.apple.model.iphone;
 
-import br.com.cod3r.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
+import anabneri.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
 
 public class IPhone11Pro extends IPhone {
 

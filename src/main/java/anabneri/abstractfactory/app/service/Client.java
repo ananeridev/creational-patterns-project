@@ -1,9 +1,10 @@
 package anabneri.abstractfactory.app.service;
 
-import br.com.cod3r.abstractfactory.app.service.factory.EJBAbstractFactory;
-import br.com.cod3r.abstractfactory.app.service.factory.ServicesAbstractFactory;
-import br.com.cod3r.abstractfactory.app.service.services.CarService;
-import br.com.cod3r.abstractfactory.app.service.services.UserService;
+
+import anabneri.abstractfactory.app.service.factory.EJBAbstractFactory;
+import anabneri.abstractfactory.app.service.factory.ServicesAbstractFactory;
+import anabneri.abstractfactory.app.service.services.CarService;
+import anabneri.abstractfactory.app.service.services.UserService;
 
 public class Client {
 

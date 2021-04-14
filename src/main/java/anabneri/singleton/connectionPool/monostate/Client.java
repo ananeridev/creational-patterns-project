@@ -1,7 +1,8 @@
 package anabneri.singleton.connectionPool.monostate;
 
-import br.com.cod3r.singleton.connectionPool.monostate.conn.Connection;
-import br.com.cod3r.singleton.connectionPool.monostate.conn.ConnectionPool;
+
+import anabneri.singleton.connectionPool.monostate.conn.Connection;
+import anabneri.singleton.connectionPool.monostate.conn.ConnectionPool;
 
 public class Client {
 	public static void doQuery1() {

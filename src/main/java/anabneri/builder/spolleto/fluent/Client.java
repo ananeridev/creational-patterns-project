@@ -1,8 +1,9 @@
 package anabneri.builder.spolleto.fluent;
 
-import br.com.cod3r.builder.spolleto.fluent.model.Pasta;
-import br.com.cod3r.builder.spolleto.fluent.model.Size;
-import br.com.cod3r.builder.spolleto.fluent.model.builder.PastaBuilder;
+
+import anabneri.builder.spolleto.fluent.model.Pasta;
+import anabneri.builder.spolleto.fluent.model.Size;
+import anabneri.builder.spolleto.fluent.model.builder.PastaBuilder;
 
 public class Client {
 

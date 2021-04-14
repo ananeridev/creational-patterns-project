@@ -1,9 +1,10 @@
 package anabneri.abstractfactory.apple.factory;
 
-import br.com.cod3r.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
-import br.com.cod3r.abstractfactory.apple.model.iphone.IPhone;
-import br.com.cod3r.abstractfactory.apple.model.iphone.IPhoneX;
-import br.com.cod3r.abstractfactory.apple.model.iphone.IPhoneXSMax;
+import anabneri.abstractfactory.apple.factory.abstractFactory.CountryRulesAbstractFactory;
+import anabneri.abstractfactory.apple.model.iphone.IPhone;
+import anabneri.abstractfactory.apple.model.iphone.IPhoneX;
+import anabneri.abstractfactory.apple.model.iphone.IPhoneXSMax;
+
 
 public class IPhoneXFactory extends IPhoneFactory {
 

@@ -1,9 +1,10 @@
 package anabneri.abstractfactory.app.service.factory;
 
-import br.com.cod3r.abstractfactory.app.service.services.CarEJBService;
-import br.com.cod3r.abstractfactory.app.service.services.CarService;
-import br.com.cod3r.abstractfactory.app.service.services.UserEJBService;
-import br.com.cod3r.abstractfactory.app.service.services.UserService;
+
+import anabneri.abstractfactory.app.service.services.CarEJBService;
+import anabneri.abstractfactory.app.service.services.CarService;
+import anabneri.abstractfactory.app.service.services.UserEJBService;
+import anabneri.abstractfactory.app.service.services.UserService;
 
 public class EJBAbstractFactory implements ServicesAbstractFactory {
 
