@@ -1,6 +1,7 @@
 package anabneri.factory.apple.after.factory;
 
-import br.com.cod3r.factory.apple.after.model.IPhone;
+
+import anabneri.factory.apple.after.model.IPhone;
 
 public abstract class IPhoneFactory {
 

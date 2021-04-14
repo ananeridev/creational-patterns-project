@@ -1,6 +1,7 @@
 package anabneri.factory.app.dbadapter.beforeimplementation;
 
-import br.com.cod3r.factory.app.dbadapter.before.db.OracleDB;
+
+import anabneri.factory.app.dbadapter.beforeimplementation.db.OracleDB;
 
 public class Client {
 

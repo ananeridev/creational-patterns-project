@@ -1,9 +1,9 @@
 package anabneri.factory.apple.halfSimple;
 
-import br.com.cod3r.factory.apple.halfSimple.factory.IPhone11Factory;
-import br.com.cod3r.factory.apple.halfSimple.factory.IPhoneFactory;
-import br.com.cod3r.factory.apple.halfSimple.factory.IPhoneXFactory;
-import br.com.cod3r.factory.apple.halfSimple.model.IPhone;
+import anabneri.factory.apple.halfSimple.factory.IPhone11Factory;
+import anabneri.factory.apple.halfSimple.factory.IPhoneFactory;
+import anabneri.factory.apple.halfSimple.factory.IPhoneXFactory;
+import anabneri.factory.apple.halfSimple.model.IPhone;
 
 public class Client {
 	

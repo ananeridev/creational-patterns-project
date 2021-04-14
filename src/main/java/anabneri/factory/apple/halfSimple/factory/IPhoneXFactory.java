@@ -1,8 +1,9 @@
 package anabneri.factory.apple.halfSimple.factory;
 
-import br.com.cod3r.factory.apple.halfSimple.model.IPhone;
-import br.com.cod3r.factory.apple.halfSimple.model.IPhoneX;
-import br.com.cod3r.factory.apple.halfSimple.model.IPhoneXSMax;
+
+import anabneri.factory.apple.halfSimple.model.IPhone;
+import anabneri.factory.apple.halfSimple.model.IPhoneX;
+import anabneri.factory.apple.halfSimple.model.IPhoneXSMax;
 
 public class IPhoneXFactory extends IPhoneFactory {
 

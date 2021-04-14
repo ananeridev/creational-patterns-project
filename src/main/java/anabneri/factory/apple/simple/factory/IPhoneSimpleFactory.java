@@ -1,10 +1,7 @@
 package anabneri.factory.apple.simple.factory;
 
-import br.com.cod3r.factory.apple.simple.model.IPhone;
-import br.com.cod3r.factory.apple.simple.model.IPhone11;
-import br.com.cod3r.factory.apple.simple.model.IPhone11Pro;
-import br.com.cod3r.factory.apple.simple.model.IPhoneX;
-import br.com.cod3r.factory.apple.simple.model.IPhoneXSMax;
+
+import anabneri.factory.apple.simple.model.*;
 
 public class IPhoneSimpleFactory {
 

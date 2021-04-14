@@ -1,7 +1,8 @@
 package anabneri.factory.apple.simple;
 
-import br.com.cod3r.factory.apple.simple.factory.IPhoneSimpleFactory;
-import br.com.cod3r.factory.apple.simple.model.IPhone;
+
+import anabneri.factory.apple.simple.factory.IPhoneSimpleFactory;
+import anabneri.factory.apple.simple.model.IPhone;
 
 public class Client {
 	
