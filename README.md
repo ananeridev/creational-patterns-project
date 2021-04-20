@@ -17,7 +17,7 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 
 -> E como consigo  deixar meu código desacoplado das classes concretas?
 
-**Solução do Padrão:** 
+**Solução do Factory:** 
 
 -> Extrair a lógica de criação dos objetos para um factory method.
 
@@ -30,5 +30,21 @@ Dentro do factory method podem ser abordadas outras formas, no livro do GOF nome
 Algumas desvantagens dessa abordagem é a complexidade e um código não usual.
 
 *Simple:* Modelos de factory mais simples. Uso uma única classe que encapsula as demais com os parâmtros necessários.
+
+
+## Abstract Factory
+Provê uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+
+**Meu Problema:** 
+
+-> Como posso criar um código onde as classes instanciadas possam variar de acordo com a modificação?
+
+-> Como consigo garantir que um conjunto de objetos relacionados ou dependentes possam ser criados mantendo o contexto único?
+
+**Solução do Abstract Factory:**
+
+-> Extrair a lógica de criação dos objetos para um abstract factory (fábrica).
+
+-> Criar uma implementação do abstract factory para cada contexto, dessa forma consigo garantir que todos os objetos estejam relacionados entre si.
 
 
