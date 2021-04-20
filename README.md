@@ -113,10 +113,10 @@ Part of these notes are from my learning from the course "Design Patterns in Jav
 
 ...
 
-#Factory Method
+# Factory Method
 It is a pattern that defines the instantiation of other classes.
 
-**My Problem:** 
+** My Problem:** 
 
 * How can I write code where instantiated classes may vary within the same interface? 
 
@@ -137,7 +137,7 @@ Some disadvantages of this approach are complexity and unusual code.
 
 *Simple:* Simpler factory models. I use a single class that encapsulates the other ones with the necessary parameters.
 
-#Abstract Factory
+# Abstract Factory
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 **My Problem:** 
@@ -174,7 +174,7 @@ In this pattern a global access point is provided. Ensures that a class has only
 
 > **Disadvantages of Singleton:** This design pattern is usually not widely accepted within the community, as stated earlier by hurting some principles of SOLID, and a great desvatagem of using it is the possibility of working only with concrete classes, for the implementation of an interface for example, it is not possible.
 
-**Builder:** 
+## Builder
 Standard that has always been evolving according to software and delivery need, bringing other approaches.
 
 **My Problme:** 
@@ -187,7 +187,7 @@ Standard that has always been evolving according to software and delivery need, 
 
 * Ecncapsular the creation and assembly of these parts in a separate builder.
 
-**Prototype**
+## Prototype
 In this pattern it is possible to create an object from a prototype, more commonly known as a clone. Here it is also possible to work on top of cloned objects, which provides the evolution of the state of the application.
 
 It is nice to note that in prototype we specify the types of objects to be created using an instance and then create new objects when copying this prototype.
