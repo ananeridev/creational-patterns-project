@@ -24,7 +24,7 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 -> Invocar o factory method para receber uma instância qualquer que impolemente uma determinada interface.
 
 
-Dentro do factory method podem ser abordadas outras formas, no livro do GOF nomeia-se de *Simple* e *Half-Simple*
+> Dentro do factory method podem ser abordadas outras formas, no livro do GOF nomeia-se de *Simple* e *Half-Simple*
 
 *Half-Simple:* Coloca-se as classes concretas com um nome de factory dentro de uma interface, e depois é chamadas as factorys nos construtores.
 Algumas desvantagens dessa abordagem é a complexidade e um código não usual.
