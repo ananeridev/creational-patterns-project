@@ -1,8 +1,8 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áù®óÿÿÿÿÿ
-m
-java:S1104"RMake street a static final constant or non-public and provide accessors if needed.(ØÚ©ªÿÿÿÿÿ
-h
-java:S1104"RMake number a static final constant or non-public and provide accessors if needed.(‡Ñ—¼
 i
 java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(¯áÑë
+h
+java:S1104"RMake number a static final constant or non-public and provide accessors if needed.(‡Ñ—¼
+m
+java:S1104"RMake street a static final constant or non-public and provide accessors if needed.(ØÚ©ªÿÿÿÿÿ

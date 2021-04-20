@@ -12,6 +12,8 @@ public class Client {
 		
 		User cloneUser = user.clone();
 		cloneUser.name = "Clone x2";
+
+		// cria um outro endereco junto com usuario
 		cloneUser.address.street = "Double Street";
 		System.out.println(user);
 		System.out.println(cloneUser);

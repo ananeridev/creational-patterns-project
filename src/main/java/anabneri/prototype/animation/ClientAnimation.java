@@ -28,7 +28,8 @@ public class ClientAnimation {
 		System.out.println("* ");
 		System.out.print("**********************");
 	}
-	
+
+	// mudo a instancia da pessoa atual, utlizando uma copia
 	public static Person addLeft(Person p) throws CloneNotSupportedException {
 		Person person = (Person) p.clone();
 		person.left();

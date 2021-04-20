@@ -4,6 +4,8 @@ package anabneri.prototype.functionalCloneBuilder;
 import anabneri.prototype.functionalCloneBuilder.model.Address;
 import anabneri.prototype.functionalCloneBuilder.model.User;
 
+// ideia de trabalhar com objetos imultaveis
+// prtotype - clone e builder  - constroi a partir de um clone de um obj
 public class Client {
 
 	public static void main(String[] args) throws CloneNotSupportedException {

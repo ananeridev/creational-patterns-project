@@ -34,7 +34,8 @@ public class User implements Cloneable {
 		Address cloneAddress = (Address) address.clone();
 		return new User(name, age, cloneAddress);
 	}
-	
+
+	// clone o objeto passando o builder nos atributos
 	public Builder cloneBuilder() {
 		return new Builder(name, age, address);
 	}

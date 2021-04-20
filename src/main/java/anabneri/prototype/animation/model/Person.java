@@ -44,7 +44,7 @@ public class Person implements Cloneable {
 	// esse metodo me possiblita em nao clonar cada um desses objetos
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-//		clone unificadp
+//		clone unificado:
 //		Person clone = new Person(line1, line2, line3, line4);
 		return super.clone();
 	}
