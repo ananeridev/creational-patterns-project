@@ -11,17 +11,17 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 
 **Meu Problema:** 
 
--> Como posso escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface? 
+* Como posso escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface? 
 
--> Tenho muito acoplamento dentro da minha aplicação! 
+* Tenho muito acoplamento dentro da minha aplicação! 
 
--> E como consigo  deixar meu código desacoplado das classes concretas?
+* E como consigo  deixar meu código desacoplado das classes concretas?
 
 **Solução do Factory:** 
 
--> Extrair a lógica de criação dos objetos para um factory method.
+* Extrair a lógica de criação dos objetos para um factory method.
 
--> Invocar o factory method para receber uma instância qualquer que impolemente uma determinada interface.
+* Invocar o factory method para receber uma instância qualquer que implemente uma determinada interface.
 
 
 > Dentro do factory method podem ser abordadas outras formas, no livro do GOF nomeia-se de *Simple* e *Half-Simple*
@@ -37,14 +37,36 @@ Provê uma interface para criar famílias de objetos relacionados ou dependentes
 
 **Meu Problema:** 
 
--> Como posso criar um código onde as classes instanciadas possam variar de acordo com a modificação?
+* Como posso criar um código onde as classes instanciadas possam variar de acordo com a modificação?
 
--> Como consigo garantir que um conjunto de objetos relacionados ou dependentes possam ser criados mantendo o contexto único?
+* Como consigo garantir que um conjunto de objetos relacionados ou dependentes possam ser criados mantendo o contexto único?
 
 **Solução do Abstract Factory:**
 
--> Extrair a lógica de criação dos objetos para um abstract factory (fábrica).
+* Extrair a lógica de criação dos objetos para um abstract factory (fábrica).
 
--> Criar uma implementação do abstract factory para cada contexto, dessa forma consigo garantir que todos os objetos estejam relacionados entre si.
+* Criar uma implementação do abstract factory para cada contexto, dessa forma consigo garantir que todos os objetos estejam relacionados entre si.
 
 
+> No Abstract Factory utiliza-se de classes relacionadas para aplicar na necessidade do contexto entendido
+> Factory Method e Abstract Factory podem ser usados juntos! Pode tornar seu código flexível.
+
+
+## Singleton
+Neste padrão é provido um ponto de acesso global. Garante que uma classe  só tenha um única instância.
+*É um padrão não muito aceito dentro da comunidade por ferir alguns pontos do SOLID*
+
+**Meu Problema:** 
+
+* Como posso garantir que uma classe tenha apenas uma instância?
+
+* Como fazer com que essa instância possa ser acessível globalmente?
+
+**Solução do Singleton:**
+* Esconder o construtor dessa classe.
+
+* Defino um ponto de criação estático PRIVATE que retorne uma instância única.
+
+*Quanto menor o acoplamento melhor*
+
+> **Desvantagens do Singleton:** Esse design pattern costuma não ser muito aceito dentro da comunidade, como dito anteriormente por ferir alguns princípios de SOLID, e uma grande desvatagem de utiliza-lo é a possiblidade de trabalhar apenas com classes concretas, para a implementação de uma interface por exemplo, não é possível.
