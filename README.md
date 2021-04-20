@@ -9,7 +9,7 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 ## Factory Method
 É um padrão que define a instanciação de outras classes.
 
-**Meu Problema: ** 
+**Meu Problema:** 
 
 -> Como posso escrever um código onde as classes instanciadas possam variar dentro de uma mesma interface? 
 
@@ -17,7 +17,7 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 
 -> E como consigo  deixar meu código desacoplado das classes concretas?
 
-**Solução do Padrão: ** 
+**Solução do Padrão:** 
 
 -> Extrair a lógica de criação dos objetos para um factory method.
 
@@ -26,9 +26,9 @@ Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Pro
 
 Dentro do factory method podem ser abordadas outras formas, no livro do GOF nomeia-se de *Simple* e *Half-Simple*
 
-*Half-Simple: * Coloca-se as classes concretas com um nome de factory dentro de uma interface, e depois é chamadas as factorys nos construtores.
+*Half-Simple:* Coloca-se as classes concretas com um nome de factory dentro de uma interface, e depois é chamadas as factorys nos construtores.
 Algumas desvantagens dessa abordagem é a complexidade e um código não usual.
 
-*Simple: * Modelos de factory mais simples. Uso uma única classe que encapsula as demais com os parâmtros necessários.
+*Simple:* Modelos de factory mais simples. Uso uma única classe que encapsula as demais com os parâmtros necessários.
 
 
