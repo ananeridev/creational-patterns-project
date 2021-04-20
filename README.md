@@ -105,3 +105,100 @@ Ex.: Dentro do código do projeto onde encapsulo a *Pessoa* com um método *clon
 Espero que minhas anotações e meu projeto com exemplos tenha ajudado de alguma forma ou reforçado algum conceito de Polimorfismo, Orientação a Objetos além do essencial que é os Design Patterns Criacionais! 
 
 
+
+# Creational Design Patterns EN-USA 🇺🇸
+Each pattern describes a problem that occurs frequently. Describes a solution that can be used other times in practice and always adapt to another solution that may or may not be exsitent.
+
+Part of these notes are from my learning from the course "Design Patterns in Java - COD3R" and the book "GOF - Design Patterns: Reusable Object Oriented Software Elements"
+
+...
+
+#Factory Method
+It is a pattern that defines the instantiation of other classes.
+
+**My Problem:** 
+
+* How can I write code where instantiated classes may vary within the same interface? 
+
+* I have a lot of coupling within my application! 
+
+* And how do I get my code unbound from the concrete classes?
+
+**Factory solution:** 
+
+* Extract the creation logic of the objects to a factory method.
+
+* Invoke the factory method to receive any instance that implements a particular interface.
+
+> Within the factory method can be addressed in other ways, in the GOF book it is called *Simple* and *Half-Simple*
+
+*Half-Simple:* You place the concrete classes with a factory name inside an interface, and then the factorys are called in the constructors.
+Some disadvantages of this approach are complexity and unusual code.
+
+*Simple:* Simpler factory models. I use a single class that encapsulates the other ones with the necessary parameters.
+
+#Abstract Factory
+Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+**My Problem:** 
+
+* How can I create code where instantiated classes may vary depending on the modification?
+
+* How can I ensure that a set of related or dependent objects can be created while maintaining the single context?
+
+**Abstract Factory Solution:**
+
+* Extract the creation logic of the objects to an abstract factory.
+
+* Create an abstract factory implementation for each context, so I can ensure that all objects are related to each other.
+
+> In the Abstract Factory, it uses related classes to apply the need for the understood context
+> Factory Method and Abstract Factory can be used together! You can make your code flexible.
+
+## Singleton
+In this pattern a global access point is provided. Ensures that a class has only one instance.
+*It's a not-too-accepted standard within the community for hurting some SOLID points*
+
+**My Problem:** 
+
+* How can I ensure that a class has only one instance?
+
+* How can i make this instance accessible globally?
+
+**Singleton solution:**
+* Hide the constructor of this class.
+
+* I define a PRIVATE static creation point that returns a single instance.
+
+*The smaller the coupling the better*
+
+> **Disadvantages of Singleton:** This design pattern is usually not widely accepted within the community, as stated earlier by hurting some principles of SOLID, and a great desvatagem of using it is the possibility of working only with concrete classes, for the implementation of an interface for example, it is not possible.
+
+**Builder:** 
+Standard that has always been evolving according to software and delivery need, bringing other approaches.
+
+**My Problme:** 
+* How can a class create different representations of the same complexly implemented object? - Object implemented in a complex way is that object that has many atribuots. E.g. Physically- 
+
+**Builder Solution:** 
+* Delegate the object function to a method that will build its characteristics rather than instantiate the object directly
+
+* Divide object creation into parts
+
+* Ecncapsular the creation and assembly of these parts in a separate builder.
+
+**Prototype**
+In this pattern it is possible to create an object from a prototype, more commonly known as a clone. Here it is also possible to work on top of cloned objects, which provides the evolution of the state of the application.
+
+It is nice to note that in prototype we specify the types of objects to be created using an instance and then create new objects when copying this prototype.
+E.g. Within the project code where I encapsulat the *Person* with a *clone* method
+
+**My Problems:**
+* How can I create a new object by taking advantage of the previously existing state of another object?
+
+**Propotype solution:**
+* Set a prototype that returns the copy of itself
+
+...
+
+I hope that my notes and my project with examples have helped in some way or reinforced some concept of Polymorphism, Object Orientation beyond the essentials that is Creational Design Patterns! 
