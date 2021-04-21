@@ -72,7 +72,7 @@ Neste padrão é provido um ponto de acesso global. Garante que uma classe  só 
 > **Desvantagens do Singleton:** Esse design pattern costuma não ser muito aceito dentro da comunidade, como dito anteriormente por ferir alguns princípios de SOLID, e uma grande desvatagem de utiliza-lo é a possiblidade de trabalhar apenas com classes concretas, para a implementação de uma interface por exemplo, não é possível.
 
 
-**Builder:** 
+## Builder
 Padrão que sempre foi evoluindo conforme necessidade software e entrega, trazendo outras abordagens.
 
 **Meu Problme:** 
@@ -86,7 +86,7 @@ Padrão que sempre foi evoluindo conforme necessidade software e entrega, trazen
 * Ecncapsular a criação e montagem dessas partes em um builder separado.
 
 
-**Prototype**
+## Prototype
 Neste padrão é posspivel criar um objeto a partir de um protótipo, mais comummente conhecido como clone. Aqui também é possível trabalhar em cima de objetos clonados, o que proporciona a evolução do estado da aplicação.
 
 É legal salientar que no prototype especificamos os tipos dos objetos a serem criados usando uma instância e depois cria-se novos objetos ao copiar este protótipo.
@@ -106,14 +106,14 @@ Espero que minhas anotações e meu projeto com exemplos tenha ajudado de alguma
 
 
 
-# Creational Design Patterns EN-USA 🇺🇸
+# Creational Design Patterns EN-US 🇺🇸
 Each pattern describes a problem that occurs frequently. Describes a solution that can be used other times in practice and always adapt to another solution that may or may not be exsitent.
 
 Part of these notes are from my learning from the course "Design Patterns in Java - COD3R" and the book "GOF - Design Patterns: Reusable Object Oriented Software Elements"
 
 ...
 
-# Factory Method
+## Factory Method
 It is a pattern that defines the instantiation of other classes.
 
 ** My Problem:** 
@@ -137,7 +137,7 @@ Some disadvantages of this approach are complexity and unusual code.
 
 *Simple:* Simpler factory models. I use a single class that encapsulates the other ones with the necessary parameters.
 
-# Abstract Factory
+## Abstract Factory
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 **My Problem:** 
