@@ -4,7 +4,6 @@ Cada padrão descreve um problema que ocorre frequentemente. Descreve uma soluç
 
 Parte dessas anotações são do meu aprendizado vindo do curso "Padrões de Projeto em Java - COD3R" ,  e do livro "GOF - Padrões de Design: Elementos de Software Orientado a Objetos Reutilizáveis"
 
-. . .
 
 ## Factory Method
 É um padrão que define a instanciação de outras classes.
