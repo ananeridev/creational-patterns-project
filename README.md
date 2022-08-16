@@ -115,7 +115,7 @@ Part of these notes are from my learning from the course "Design Patterns in Jav
 ## Factory Method
 It is a pattern that defines the instantiation of other classes.
 
-** My Problem:** 
+**My Problem:** 
 
 * How can I write code where instantiated classes may vary within the same interface? 
 
